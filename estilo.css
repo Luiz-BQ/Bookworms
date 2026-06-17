@@ -1,0 +1,98 @@
+.cabecalho{
+    color: aqua;
+    margin: 0;
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+}
+.btnlogin{
+   display: inline-grid;
+    place-items: center;
+    color: white;
+    background-color: #03dac6;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    margin: 0px;
+    font-weight: bold;
+}
+.redirect{
+    font-size: 18px; 
+    color: rgb(0, 140, 255); 
+    text-decoration: none; 
+    font-weight: bold;
+}
+.bpainel{
+    margin: 0px; 
+    padding: 0px; 
+    box-sizing: border-box; 
+    font-family: sans-serif; 
+    background-color: #f4f6f9; 
+    display: grid; 
+    place-items: center; 
+    height: 900px;
+}
+.painel{
+    background-color: white; 
+    padding: 40px; 
+    border-radius: 12px; 
+    width: 380px; 
+    display: grid;
+    gap: 24px; 
+}
+.titulopainel{
+    color: #000000; 
+    margin-bottom: 24px; 
+    font-size: 1.8rem;
+}
+.formulario{
+    display: grid; 
+    grid-template-columns: 1fr;
+    gap: 16px;
+}
+.segmento{
+    display: grid;
+     gap: 6px;
+}
+.campo{
+    font-size: 0.85rem;
+    color: #666; 
+    font-weight: bold;
+}
+.linnhacampo{
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid white; 
+    border-radius: 6px; 
+    font-size: 1rem; 
+    box-sizing: border-box;
+    outline: none;
+}
+.botao{
+    display: inline-grid; 
+    place-items: center; 
+    color: #fff; 
+    background-color: #03dac6;
+    padding: 12px; 
+    border: none;
+    border-radius: 8px; 
+    font-size: 1rem; 
+    font-weight: bold; 
+    cursor: pointer; 
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: background 0.2s;
+    margin-top: 10px;
+}
+.rodape {
+    background-color: #222;
+    color: #bbb;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9rem;
+}
+.topo {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+}

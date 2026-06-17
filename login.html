@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body class="bpainel">
+    <div class="painel">
+        <h2 class="titulopainel">Acessar Conta</h2>
+        <form action="http://localhost:3000/login" method="POST" class="formulario">
+
+            <div style="text-align: left;">
+                <label for="email" class="campo">E-mail</label>
+                <input type="email" id="email" name="email" required placeholder="seu@email.com" class="linhacampo">
+            </div>
+
+            <div style="text-align: left;">
+                <label for="senha" class="campo">Senha</label>
+                <input type="password" id="senha" name="senha" required placeholder="Sua senha" class="linhacampo">
+            </div>
+            <button type="submit" class="botao">
+                ENTRAR
+            </button>
+            <div style="margin-top: 12px; text-align: center;">
+                <span style="font-size: 20px; color: gray;">Não tem uma conta? </span>
+                <a href="cadastro.html" class="redirect">Cadastre-se</a>
+            </div>
+        </form>
+
+    </div>
+
+</body>
+</html>

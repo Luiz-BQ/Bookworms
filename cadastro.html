@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body class="bpainel">
+    <div class="painel">
+        
+        <h2 class="titulopainel">Criar Conta</h2>
+        
+        <form action="http://localhost:3000/cadastro" method="POST" class="formulario">
+            
+            <div class="segmento">
+                <label for="nome" class="campo">Nome Completo</label>
+                <input type="text" id="nome" name="nome" required placeholder="Seu nome completo" class="linhacampo">
+            </div>
+
+            <div style="display: grid; gap: 6px;">
+                <label for="nascimento" class="campo">Data de Nascimento</label>
+                <input type="date" id="nascimento" name="nascimento" required class="linhacampo">
+            </div>
+
+            <div style="display: grid; gap: 6px;">
+                <label for="email" class="campo">E-mail</label>
+                <input type="email" id="email" name="email" required placeholder="seu@gmail.com" class="linhacampo">
+            </div>
+
+            <div style="display: grid; gap: 6px;">
+                <label for="senha" class="campo">Senha</label>
+                <input type="password" id="senha" name="senha" required placeholder="Crie uma senha" class="linhacampo">
+            </div>
+
+            <button type="submit" class="botao">
+                CADASTRAR
+            </button>
+
+            <div style="margin-top: 12px; text-align: center;">
+                <span style="font-size: 20px; color: gray;">Já tem uma conta? </span>
+                <a href="login.html" class="redirect">Faça Login</a>
+            </div>
+        </form>
+
+    </div>
+
+</body>
+</html>
